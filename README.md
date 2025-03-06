@@ -76,4 +76,4 @@ The Inception Model was built with complete reference to Toby Breckon's paper on
 
 ## Feedback
 
-If you have any feedback or queries, please reach out via email.
+If you have any feedback or queries, please raise an issue.
