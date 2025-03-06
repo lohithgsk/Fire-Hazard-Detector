@@ -24,3 +24,47 @@ The Fire Hazard Detection System is a real-time fire detection and monitoring so
 2. Connect a USB camera to the Raspberry Pi for live feed processing.
 3. Deploy the Inception model to detect fire in video frames.
 4. Start the web application to display sensor data and fire alerts.
+
+## Run Locally
+
+### Frontend
+
+Clone the project
+
+```bash
+git clone https://github.com/lohithgsk/Fire-Hazard-Detector.git
+```
+
+Go to the project directory
+
+```bash
+cd fire-hazard-detector
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
+
+```bash
+npm run dev
+```
+
+By Default, the last recorded sample from Thingspeak will be displayed. 
+
+### Model
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python app.py
+```
+
+## Feedback
+
+If you have any feedback or queries, please reach out via email.
