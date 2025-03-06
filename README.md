@@ -57,12 +57,21 @@ By Default, the last recorded sample from Thingspeak will be displayed.
 
 ### Model
 
+Install all the requirements for the model.
 ```bash
 pip install -r requirements.txt
 ```
-
+Start up the server.
 ```bash
 python app.py
+```
+
+## References
+
+The Inception Model was built with complete reference to Toby Breckon's paper on real time fire detection.
+```
+[1] A. J. Dunnings and T. P. Breckon, “Experimentally Defined Convolutional Neural Network Architecture Variants for Non-Temporal Real-Time Fire Detection,” IEEE Xplore, Oct. 01, 2018. https://ieeexplore.ieee.org/document/8451657
+[2] A. Ganesh, N. Bhowmik, and T. P. Breckon, “Experimental Exploration of Compact Convolutional Neural Network Architectures for Non-Temporal Real-Time Fire Detection,” Durham Research Online (Durham University), Dec. 2019, doi: https://doi.org/10.1109/icmla.2019.00119.‌
 ```
 
 ## Feedback
