@@ -66,6 +66,13 @@ Start up the server.
 python app.py
 ```
 
+## Application Screenshots
+
+The About Page serves as the landing page of the application. 
+
+![About Page](https://github.com/lohithgsk/Fire-Hazard-Detector/blob/main/images/About.png)
+
+
 ## References
 
 The Inception Model was built with complete reference to Toby Breckon's paper on real time fire detection.
