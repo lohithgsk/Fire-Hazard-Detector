@@ -57,14 +57,41 @@ By Default, the last recorded sample from Thingspeak will be displayed.
 
 ### Model
 
+Install all the requirements for the model.
 ```bash
 pip install -r requirements.txt
 ```
-
+Start up the server.
 ```bash
 python app.py
 ```
 
+## Application Screenshots
+
+The About Page serves as the landing page of the application. 
+
+![About Page](https://github.com/lohithgsk/Fire-Hazard-Detector/blob/main/images/About.png)
+
+<br>
+
+The Dashboard displays the sensor values in real time. The values are fetched every 5 seconds from the ThingSpeak API.
+
+![Dashboard Page](https://github.com/lohithgsk/Fire-Hazard-Detector/blob/main/images/dashboard.png)
+
+<br>
+
+The Live Video Page, displays the real time video footage run through the InceptionV1 Model.
+
+![About Page](https://github.com/lohithgsk/Fire-Hazard-Detector/blob/main/images/feed.png)
+
+## References
+
+The Inception Model was built with complete reference to Toby Breckon's paper on real time fire detection.
+```
+[1] A. J. Dunnings and T. P. Breckon, “Experimentally Defined Convolutional Neural Network Architecture Variants for Non-Temporal Real-Time Fire Detection,” IEEE Xplore, Oct. 01, 2018. https://ieeexplore.ieee.org/document/8451657
+[2] A. Ganesh, N. Bhowmik, and T. P. Breckon, “Experimental Exploration of Compact Convolutional Neural Network Architectures for Non-Temporal Real-Time Fire Detection,” Durham Research Online (Durham University), Dec. 2019, doi: https://doi.org/10.1109/icmla.2019.00119.‌
+```
+
 ## Feedback
 
-If you have any feedback or queries, please reach out via email.
+If you have any feedback or queries, please raise an issue.
