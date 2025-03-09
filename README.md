@@ -72,6 +72,17 @@ The About Page serves as the landing page of the application.
 
 ![About Page](https://github.com/lohithgsk/Fire-Hazard-Detector/blob/main/images/About.png)
 
+<br>
+
+The Dashboard displays the sensor values in real time. The values are fetched every 5 seconds from the ThingSpeak API.
+
+![Dashboard Page](https://github.com/lohithgsk/Fire-Hazard-Detector/blob/main/images/dashboard.png)
+
+<br>
+
+The Live Video Page, displays the real time video footage run through the InceptionV1 Model.
+
+![About Page](https://github.com/lohithgsk/Fire-Hazard-Detector/blob/main/images/feed.png)
 
 ## References
 
